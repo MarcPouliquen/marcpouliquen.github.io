@@ -65,7 +65,7 @@ $(function()
 	// On récupère notre élément
 	var menu = $('#headerfix');
         var lienHeader = $('a.lienheader');
-        var hauteur = $(window).height()+39;
+        var hauteur = $('#top').height()+39;
         var photo = $('#mainphoto');
         var opac = 1-scrollTop/700;
                 
