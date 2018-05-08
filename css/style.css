@@ -164,7 +164,7 @@ h2
     margin-top: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-color: #356ba3;
     z-index: 1;
@@ -274,6 +274,7 @@ h2
         width : 100%;
         min-width: 200px;
         text-align: center;
+	margin-bottom: 20px;
     }
     
     #c2
@@ -282,6 +283,7 @@ h2
         width : 100%;
         min-width: 200px;
         text-align: center;
+	margin-bottom: 20px;
     }
 
     #c3
@@ -290,6 +292,7 @@ h2
         width : 100%;
         min-width: 200px;
         text-align: center;
+	margin-bottom: 20px;
     }
 }
 
@@ -315,6 +318,7 @@ h2
         float : left;
         text-align: center;
         margin: auto;
+	margin-bottom: 20px;
     }
     
     #c2
@@ -324,6 +328,7 @@ h2
         float : left;
         text-align: center;
         margin: auto;
+	margin-bottom: 20px;
     }
 
     #c3
@@ -333,6 +338,7 @@ h2
         float : left;
         text-align: center;
         margin: auto;
+	margin-bottom: 20px;
     }
 }    
 
@@ -375,41 +381,6 @@ h2
     }
 }
 
-#formations
-{
-    height: auto;
-    min-height: 800px;
-    background-color: #f5f5f5;
-    background-image: url(../img/3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    margin-top: 0px;    
-}
-#f1
-{
-    margin-left: 7%;
-    width : 25%;
-    min-width: 200px;
-    text-align: center;
-}
-
-#f2
-{
-    margin-left: 5%;
-    width : 25%;
-    height : 300px;
-    min-width: 200px;
-    text-align: center;
-}
-#f3
-{
-    margin-left: 5%;
-    width : 25%;
-    min-width: 200px;
-    text-align: center;
-}
-
 @media all and (min-width: 960px)
 {
     
@@ -417,13 +388,14 @@ h2
     {
         height: auto;
         min-height: 500px;
-        background-color: #222222;
+    	background-color: #f5f5f5;
         background-image: url(../img/5.png);
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        color: #eeeeee;
+        /*color: #eeeeee;*/
         margin-top: 0px;
+        padding-bottom: 20px;
     }
 
     #l1
@@ -458,13 +430,13 @@ h2
     {
         height: auto;
         min-height: 500px;
-        background-color: #222222;
+    	background-color: #f5f5f5;
         background-image: url(../img/5.png);
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        color: #eeeeee;
         margin-top: 0px;
+        padding-bottom: 20px;
     }
 
     #l1
@@ -497,7 +469,7 @@ h2
 {
     height: auto;
     min-height: 500px;
-    background-color: #f5f5f5;
+    background-color: #222222;
     background-image: url(../img/2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -574,6 +546,7 @@ h2
 .subtitle
 {
     text-align: center;
+    font-size: 30px;
 }
 
 .textBlue
