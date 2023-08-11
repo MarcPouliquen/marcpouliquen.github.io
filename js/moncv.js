@@ -43,15 +43,9 @@ $(function()
         }
 	if(scrollTop >= hauteur){
             menu.removeClass("rel").removeClass("black").addClass("fix").addClass("blue");
-            lienHeader.hover(function(){
-                lienHeader.css({color : black});
-            });
 	}
         else{
             menu.removeClass("fix").removeClass("blue").addClass("rel").addClass("black");
-            lienHeader.hover(function(){
-                lienHeader.css({color : white});
-            });
 	}
     });
     // On lance l'évènement scroll un première fois au chargement de la page
