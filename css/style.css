@@ -54,6 +54,11 @@ a:hover
     border-bottom: 1px solid #346aa3;
 }
 
+a.lienheader
+{
+    border-bottom : none;
+}
+
 a.lienheader:hover
 {
     color: black;
