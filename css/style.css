@@ -126,8 +126,6 @@ a.lienheader:hover
     }
 }
 
-
-
 #flecheScroll
 {
     padding-top : 50px;
@@ -270,6 +268,38 @@ h2
     font-size: 2em;
     font-weight: 500;
     line-height: 100%;
+}
+
+.h3Competences
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 100%;
+    text-decoration: underline #356ba3;
+    text-decoration-thickness: 2px;
+}
+
+.bubble {
+  display: inline-block;
+  padding-top: 2px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+
+.bubble:empty {
+  display: none;
+}
+
+.bubble-top {
+  color: #fff;
+  background-color: #356ba3;
 }
 
 @media all and (max-width: 960px)
@@ -527,6 +557,8 @@ h2
     font-size: 3rem;
     font-weight: 700;
     line-height: 40px;
+    text-decoration: underline #356ba3;
+    text-decoration-thickness: 2px;
 }
 
 .sectionTtitleFonce
@@ -538,6 +570,8 @@ h2
     font-size: 3rem;
     font-weight: 700;
     line-height: 40px;
+    text-decoration: underline #356ba3;
+    text-decoration-thickness: 2px;
 }
 
 .lienClair
@@ -629,6 +663,12 @@ h2
 {
     list-style-type: none;
     text-align: center;
+}
+
+.liCompetences
+{
+    list-style-type: none;
+    margin: 5px;
 }
 
 .firststar
