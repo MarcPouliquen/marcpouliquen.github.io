@@ -289,6 +289,7 @@ h2
 .bubble {
   display: inline-block;
   padding-top: 2px;
+  padding-bottom: 2px;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
